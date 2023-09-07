@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="./style.css">
 </head>
 <body class="w-full h-full bg-black font-Bebas-Neue">
-    <div class="w-full h-[110vh] bg-cover" style="background-image: url(./Images/bgc.jpg)">
+    <div class="w-full h-[110vh] bg-cover border-b-[15px] border-gray-700" style="background-image: url(./Images/bgc.jpg)" >
       <div class="flex justify-between mx-2 lg:mx-32 h-20 align-middle">
 
         <div>   
@@ -26,7 +26,7 @@
             </button>
 
             <button class=" h-10 text-white px-4 bg-red-600 rounded-md hover:bg-red-700 font-bold">Sign In</button>
-        </div>    
+        </div>   
     </div> 
     <div class="flex items-center justify-center lg:mt-40 mt-8">
         <h1 class="text-white md:text-5xl text-4xl text-center font-bold md:font-black">Laughter. Tears. Thrills. Find it all on <br> Netflix.</h1>
@@ -37,9 +37,21 @@
 
     </div>
     <div class="flex items-center justify-center flex-col md:flex-row mt-6 gap-2">
-        <input type="Email" placeholder="Email-Address" class="rounded-md text-white h-16 w-2/6 bg-black bg-opacity-70 border border-red-600 ps-4">
-        <button class="text-white bg-red-600 rounded-md hover:bg-red-700 font-bold h-16 w-1/6 text-xl">Get Started<i class="ri-arrow-right-s-line text-white text-base md:text-2xl inline-block"></i></button>
+        <input type="Email" placeholder="Email Address" class="rounded-md text-white md:h-16 md:w-2/6 bg-black bg-opacity-70 border h-10 w-3/4 border-red-600 ps-4 md:text-xl">
+        <button class="text-white bg-red-600 rounded-md hover:bg-red-700 font-bold md:h-16 md:w-1/6 md:text-xl h-10 w-2/4 text-xs">Get Started<i class="ri-arrow-right-s-line text-white text-base md:text-2xl inline-block"></i></button>
+    </div> 
+    <div class="w-full h-[80vh] bg-black border-b-[15px] border-gray-700 mt-32 xl:gap-28 md:mt-44 flex flex-col md:flex-row items-center justify-center gap-10">
+        <div class="text-white w-full md:w-4/12">
+            <h1 class="text-3xl text-center md:text-5xl font-black">Enjoy on your TV</h1>
+            <h2 class=" md:text-xl mt-5 font-bold text-center mx-7">Watch on smart TVs, PlayStation, Xbox, Chromecast, Apple TV, Blu-ray players and more.</h2>
+        </div>
+        <div class=" w-full md:w-5/12 xl:flex xl:justify-center relative">
+            <img class="z-10 object-cover relative" src="./Images/tv.png" alt="">
+            <video class="absolute z-0 h-28 w-40 " src="./Images/v1.m4v" autoplay muted loop></video>
+        </div>
+
     </div>
+   
     
     
 </body>
