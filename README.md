@@ -16,3 +16,7 @@
             <h1 class="text-3xl text-center md:text-5xl md:text-left font-black">Download your shows to watch offline</h1>
             <h2 class=" md:text-xl mt-5 font-bold text-center md:text-left ">Save your favourites easily and always have something to watch.</h2>
         </div>
+
+        ```
+        border-b-[8px] border-[#2F2F2F]
+        ```
