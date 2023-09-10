@@ -1,73 +1,85 @@
+#NetFlix Cloned Using TailwindCSS 
 
+I have learnt about Tailwind CSS. After learning i want to use it and apply it to make a Responsive Website.
+So i choosed a Netflix to Create beacuse it is very Good Website for Learning ResponsiveNess.
 
-        ```
-        border-b-[8px] border-[#2F2F2F]
+I created this from Scratch.
+I have taken Approx 5 days to Recreate this Website.
 
-        ```
+if you want to create this website or you want to try this by using tailwind CSS. Kindly follow below Instructions..........
 
-        ```
-        <!-- <div class=" flex border-2 border-slate-300 rounded-xl bg-black items-center justify-between z-10 h-24 w-4/6 px-2 mb-32 absolute"> 
-                    <img class=" h-20 mx-2 " src="./Images/boxshot.png" alt="boxshot">
-                    <h3 class="text-white">Stranger Things <br> <span class="text-blue-700">Downloading</span></h3>
-                    <i class="ri-download-line text-blue-700   md:text-2xl pr-2"></i>
-                </div> -->
-        ```
+I have Used Tailwind CSS In This Project...... If SomeOne wants To Use CSS TRY THis....
 
-```
-<div class="flex items-center justify-center lg:mt-40 mt-8">
-        <h1 class="text-white md:text-5xl text-4xl text-center font-bold md:font-black">Laughter. Tears. Thrills. Find it all on <br> Netflix.</h1>
-    </div>
-```
-
-
-
-        ```
-        <div class="flex items-center justify-center flex-col mt-5 mx-6">
-        <h2 class="text-white font-semibold lg:text-2xl md:tracking-wider text-lg font-bebas-neue">Endless entertainment starts at just ₹ 149. Cancel anytime.</h2>
-        <h2 class="text-white font-semibold lg:text-xl md:tracking-wide mt-3 md:mt-4 text-lg font-bebas-neue">Ready to watch? Enter your email to create or restart your membership.</h2>
-        </div>
-
-       ```
-
-
-
-
-
-        ```
-        <!-- Signup Process -->
-    <div class="flex items-center justify-center flex-col md:flex-row mt-6 gap-2">
-        <input type="Email" placeholder="Email Address" class="rounded-md text-white md:h-16 md:w-2/6 bg-black bg-opacity-70 border h-10 w-3/4 border-red-600 ps-4 md:text-xl">
-        <button class="text-white bg-red-600 rounded-md hover:bg-red-700 font-bold md:h-16 md:w-1/6 md:text-xl h-10 w-2/4 text-xs">Get Started<i class="ri-arrow-right-s-line text-white text-base md:text-2xl inline-block"></i></button>
-    </div>
-        ```
-
-
-
-
+1- install The Node.js...
+2- if you have Node.js then Open Terminal... and Run this command------
+3- Create a Folder.. this command create a folder on desktop...
 
 ```
-<!-- <div  >
-        Nvabaar
-      <div class="flex justify-between mx-2 lg:mx-32 h-20 align-middle">
+mkdir "Your Folder Name"
+```
+4.it will config the Tailwind CSS on that folder
 
-        <div>   
-            <img class="w-24 h-8 lg:w-32 lg:h-12 mt-5" src="./Images/logo.png" alt="NetFlix">
-        </div>
+```
+npx tailwindcss init
 
-        <div class="flex gap-3 mt-5">
-            <button class="bg-black border h-10 focus:border-white focus:border-2 border-gray-700 px-4 rounded-md">
-                <i class="ri-global-line text-white text-lg"></i>
-                <span class="hidden md:inline-block text-white font-medium">English</span>
-                <i class="ri-arrow-down-s-fill text-white text-xl"></i>
-            </button>
+```
+5.create a Src folder on the previous folder and create a file input.css and paste the below properties.
 
-            <button class=" h-10 text-white px-4 bg-red-600 rounded-md hover:bg-red-700 font-bold">Sign In</button>
-        </div>   
-    </div>  -->
+```
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+```
+6- Create a dist Folder on your Previous Folder and Create two File....
+
+```
+index.html
+```
+
+```
+output.css
+```
+
+7- link a css in html file...
+
+```
+<link rel="stylesheet" href="./output.css">
+```
+8- Now go to tailwind.config.js and give a path the where is your html on the component tag...
+
+```
+/** @type {import('tailwindcss').Config} */
+module.exports = {
+  content: ["./dist/*.html"],
+  theme: {
+    extend: {},
+  },
+  plugins: [],
+}
+
+```
+
+9- After this Run One More Command On Terminal....
+
+```
+npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch
+```
+10- Now you can use tailwind css on your html ..... ex---
+
+```
+<h1 class"bg-red-200">This is The Proper Way To Use Tailwind CSS</h1>
+```
+11- Now Cheak that the TailwindCSS is working properly by open live Server.
+
+12- Now Make what you want using tailwindCSS......
 
 
-
-
-
-    color: rgb(229,9,20);
+if you also want to create a NetFlix,there are some helping Material.
+----------For Referance---------------------
+```
+border-color: #2F2F2F
+```
+#
+```
+button-background-color:rgb(229,9,20)
 ```

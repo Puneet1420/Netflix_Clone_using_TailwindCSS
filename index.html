@@ -10,14 +10,15 @@
     <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
     <link rel="stylesheet" href="./style.css">
 </head>
-<body class="w-full h-full bg-black font-semibold">
+<body class="w-full h-full bg-black Bebas">
     <!-- Top Hero Section  -->
-      <div class="w-full h-auto md:h-[120vh] 2xl:h-[50vh] bg-cover py-9" style="background-image: url(./Images/bgc.jpg)">
+
+      <div class="w-full h-auto md:h-[120vh] 2xl:h-[60vh] bg-cover py-9 font-[Bebas]" style="background-image: url(./Images/bgc.jpg)">
 
         <!-- Navbaar -->
-        <div class="w-full flex items-center justify-between 2xl:px-96 xl:px-52 px-5">
+        <div class="w-full flex items-center justify-between 2xl:px-72 xl:px-32 px-5">
             <div>   
-                <img class="w-20 h-6 lg:w-28 lg:h-10" src="./Images/logo.png" alt="NetFlix">
+                <img class="w-20 h-6 lg:w-36 lg:h-10" src="./Images/logo.png" alt="NetFlix">
             </div>
     
             <div class="flex gap-3 items-center justify-center">
@@ -27,7 +28,7 @@
                     <i class="ri-arrow-down-s-fill text-white text-xl"></i>
                 </button>
     
-                <button class=" h-8 lg:h-10 text-white px-4 bg-red-600 rounded-md hover:bg-red-700 font-bold">Sign In</button>
+                <button class=" h-8 lg:h-10 text-white px-4 bg-[rgb(229,9,20)] rounded-md hover:bg-red-700 font-bold hover:duration-500">Sign In</button>
             </div>
 
         </div>
@@ -40,12 +41,13 @@
         <!-- Sign Up -->
         <div class="flex items-center justify-center flex-col md:flex-row mt-6 gap-4">
             <input type="Email" placeholder="Email address" class="rounded-md text-white md:h-16 md:w-2/6 bg-black bg-opacity-80 border h-12 w-3/4 2xl:w-[19.33%] border-[rgb(229,9,20)] ps-4 md:text-xl">
-            <button class="text-white bg-[rgb(229,9,20)] rounded-md hover:bg-red-700 font-bold md:h-16 md:w-1/6 md:text-xl h-12 w-[43%] text-lg 2xl:w-[6.6666%]">Get Started<i class="ri-arrow-right-s-line text-white text-xl md:text-2xl inline-block"></i></button>
+            <button class="text-white bg-[rgb(229,9,20)] rounded-md hover:bg-red-700 hover:duration-500 font-bold md:h-16 md:w-1/6 md:text-xl h-12 w-[43%] text-lg 2xl:w-[6.6666%]">Get Started<i class="ri-arrow-right-s-line text-white text-xl md:text-2xl inline-block"></i></button>
         </div>
 
       </div>
 
     <!-- Enjoy Your Tv Section completed  -->
+
     <div class="w-full h-auto py-24 bg-black border-y-[8px] border-[#2F2F2F] xl:gap-28 flex flex-col md:flex-row items-center justify-center gap-10">
 
         <div class="text-white w-full md:w-4/12">
@@ -61,26 +63,27 @@
     </div>
 
     <!-- Download Section Completed -->
+
     <div class="w-full h-auto pb-24 mt-16  bg-black border-b-[8px] border-[#2F2F2F] flex flex-col md:flex-row items-center justify-center gap-10">
+        
+        <div class=" w-full md:w-5/12 xl:flex xl:justify-center relative">
+            <div class="flex items-end justify-center"><img src="./Images/shimg.jpg" alt="">
+                <div class=" flex border-2 border-[#2F2F2F] rounded-xl bg-black items-center justify-between z-10 h-20 w-[64.3333%] px-2 absolute"> 
+                    <img class=" max-h-16 mx-2 " src="./Images/boxshot.png" alt="boxshot">
+                    <h3 class="text-white text-sm">Stranger Things <br> <span class="text-blue-700 text-xs">Downloading...</span></h3>
+                    <i class="ri-download-line text-white md:text-2xl pr-2"></i>
+                </div>
+            </div>
+
+        </div>
         <div class="text-white w-full md:w-4/12">
             <h1 class="text-3xl text-center md:text-5xl md:text-left font-black">Download your shows to watch offline</h1>
             <h2 class=" md:text-xl mt-5 font-bold text-center md:text-left ">Save your favourites easily and always have something to watch.</h2>
         </div>
-
-        <div class=" w-full md:w-5/12 xl:flex xl:justify-center relative">
-            <div class="flex items-end justify-center"><img src="./Images/shimg.jpg" alt="">
-                <div class=" flex border-2 border-[#2F2F2F] rounded-xl bg-black items-center justify-between z-10 h-16 w-10/12 px-2 absolute"> 
-                    <img class=" h-12 mx-2 " src="./Images/boxshot.png" alt="boxshot">
-                    <h3 class="text-white text-sm">Stranger Things <br> <span class="text-blue-700 text-xs">Downloading...</span></h3>
-                    <i class="ri-download-line text-white md:text-2xl pr-2"></i>
-                </div>
-            
-            </div>
-        </div>
-        
     </div>
 
     <!-- Watch EveryWhere Section || pic fix krni hai  -->
+
     <div class="w-full h-auto pb-24 mt-16 bg-black border-b-[8px] border-[#2F2F2F] flex flex-col md:flex-row items-center justify-center gap-10">
 
         <div class="text-white w-full md:w-4/12">
@@ -111,34 +114,34 @@
 
     <div class="w-full h-auto pb-24 mt-16 bg-black border-b-[8px] border-[#2F2F2F] flex flex-col items-center gap-5 text-white">
         <h1 class="md:text-5xl text-4xl text-center my-8 font-bold">Frequently Asked Questions</h1>
-        <div class="flex bg-[#2D2D2D] hover:bg-[#3F3F3F] md:w-9/12 md:h-20 items-center justify-between w-3/4 h-20 px-5">
+        <div class="flex bg-[#2D2D2D] hover:bg-[#3F3F3F] md:w-9/12 md:h-20 items-center justify-between w-3/4 h-20 px-5 hover:duration-500">
             <h2 class="md:text-3xl w-[88%] text-lg font-medium pr-5 ">What is NetFlix?</h2>
             <i class="ri-add-line text-white md:text-6xl text-2xl font-thin"></i>
         </div>
-        <div class="flex bg-[#2D2D2D] hover:bg-[#3F3F3F] md:w-9/12 md:h-20 items-center justify-between w-3/4 h-20 px-5">
+        <div class="flex bg-[#2D2D2D] hover:bg-[#3F3F3F] md:w-9/12 md:h-20 items-center justify-between w-3/4 h-20 px-5 hover:duration-500">
             <h2 class="md:text-3xl w-[88%] text-lg font-medium pr-5">How much does NetFlix Cost?</h2>
             <i class="ri-add-line text-white md:text-6xl text-2xl font-thin"></i>
         </div>
-        <div class="flex bg-[#2D2D2D] hover:bg-[#3F3F3F] md:w-9/12 md:h-20 items-center justify-between w-3/4 h-20 px-5">
+        <div class="flex bg-[#2D2D2D] hover:bg-[#3F3F3F] md:w-9/12 md:h-20 items-center justify-between w-3/4 h-20 px-5 hover:duration-500">
             <h2 class="md:text-3xl  w-[88%] text-lg font-medium pr-5">Where can I Watch?</h2>
             <i class="ri-add-line text-white md:text-6xl text-2xl font-thin"></i>
         </div>
-        <div class="flex bg-[#2D2D2D] hover:bg-[#3F3F3F] md:w-9/12 md:h-20 items-center justify-between w-3/4 h-20 px-5">
+        <div class="flex bg-[#2D2D2D] hover:bg-[#3F3F3F] md:w-9/12 md:h-20 items-center justify-between w-3/4 h-20 px-5 hover:duration-500">
             <h2 class="md:text-3xl  w-[88%] text-lg font-medium pr-5">How do I Cancel?</h2>
             <i class="ri-add-line text-white md:text-6xl text-2xl font-thin"></i>
         </div>
-        <div class="flex bg-[#2D2D2D] hover:bg-[#3F3F3F] md:w-9/12 md:h-20 items-center justify-between w-3/4 h-20 px-5">
+        <div class="flex bg-[#2D2D2D] hover:bg-[#3F3F3F] md:w-9/12 md:h-20 items-center justify-between w-3/4 h-20 px-5 hover:duration-500">
             <h2 class="md:text-3xl w-[88%] text-lg font-medium pr-5">What can I Watch on NetFlix?</h2>
             <i class="ri-add-line text-white md:text-6xl text-2xl font-thin"></i>
         </div>
-        <div class="flex bg-[#2D2D2D] hover:bg-[#3F3F3F] md:w-9/12 md:h-20 items-center justify-between w-3/4 h-20 px-5">
+        <div class="flex bg-[#2D2D2D] hover:bg-[#3F3F3F] md:w-9/12 md:h-20 items-center justify-between w-3/4 h-20 px-5 hover:duration-500">
             <h2 class="md:text-3xl  w-[88%] text-lg font-medium pr-5">Is NetFlix good for Kids?</h2>
             <i class="ri-add-line text-white md:text-6xl text-2xl  font-thin"></i>
         </div>
         <h2 class="text-2xl mt-10 font-semibold text-center">Ready to watch? Enter your email to create or restart your membership.</h2>
         <div class="flex items-center justify-center flex-col md:flex-row mt-2 gap-2 w-full">
             <input type="Email" placeholder="Email Address" class=" md:w-96 md:h-14 w-5/6 h-12 px-5 md:text-xl rounded-md text-white bg-[#1b1b1b] bg-opacity-70 border border-green-600">
-            <button class="text-white bg-red-600 rounded-md hover:bg-red-700 font-bold text-xs w-36 h-14 md:text-xl">Get Started<i class="ri-arrow-right-s-line text-white text-base inline-block md:text-2xl"></i></button>
+            <button class="text-white bg-[rgb(229,9,20)] rounded-md hover:bg-red-700 font-bold text-xs w-36 h-14 md:text-xl hover:duration-500">Get Started<i class="ri-arrow-right-s-line text-white text-base inline-block md:text-2xl"></i></button>
         </div> 
 
         
@@ -147,7 +150,7 @@
 
     <!-- footer Completed -->
 
-    <div class="w-full h-auto pb-24 mt-16 text-[#9F9F9F] bg-black flex flex-col md:flex-row items-center justify-center gap-10">
+    <div class="w-full h-auto pb-24 mt-16 text-[#9F9F9F] bg-black flex flex-col md:flex-row items-center justify-center gap-10 cursor-pointer">
         <div class="flex flex-col md:flex-row items-center justify-around w-full">
             <div class="flex flex-col gap-2 items-center md:items-start mt-14 md:-mt-11">
                 <h3 class="mb-20 text-right">Questions? Call <span class="underline">000-800-919-1694</span></h3>
